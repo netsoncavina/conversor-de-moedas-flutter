@@ -14,6 +14,7 @@ typedef ValueChanged<T> = void Function(T value);
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: const Home(),
       theme: ThemeData(
         hintColor: Colors.amber,
